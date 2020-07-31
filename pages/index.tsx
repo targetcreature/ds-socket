@@ -58,7 +58,7 @@ const App: NextPage<Props> = () => {
   return (
     <main>
       <div>
-        <h1>Turkey Talk</h1>
+        <h1>Turkey Talk Time</h1>
         <ul>
           {messages.map(message =>
             <li key={message.id}>{message.value}</li>
