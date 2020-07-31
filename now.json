@@ -1,7 +1,0 @@
-{
-  "name": "turkey-talk",
-  "alias": "turkey-talk.vercel.app",
-  "env": {
-    "NODE_ENV": "production"
-  }
-}
