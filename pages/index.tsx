@@ -42,7 +42,7 @@ const App: NextPage<Props> = () => {
 
   useEffect(() => {
 
-    const socket = io('https://turkey-test.vercel.app/')
+    const socket = io('https://turkey-time.vercel.app/')
     socket.on('message', handleMessage)
 
     setSocket(socket)
@@ -80,7 +80,7 @@ const App: NextPage<Props> = () => {
 }
 
 App.getInitialProps = async ({ }) => {
-  const response = await fetch('https://turkey-test.vercel.app/messages')
+  const response = await fetch('https://turkey-time.vercel.app/messages')
   const messages = await response.json()
   return { messages }
 }
