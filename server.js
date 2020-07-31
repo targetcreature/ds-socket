@@ -19,7 +19,7 @@ io.on('connection', socket => {
 })
 
 nextApp.prepare().then(() => {
-  app.get('/turkey', (req, res) => {
+  app.get('/gobble', (req, res) => {
     res.json(messages)
   })
 
