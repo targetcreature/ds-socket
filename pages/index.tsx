@@ -5,6 +5,8 @@ import io from 'socket.io-client'
 
 type Props = {}
 
+export default () => <div>huh</div>
+
 const App: NextPage<Props> = () => {
 
   const [socket, setSocket] = useState(null)
@@ -85,4 +87,4 @@ App.getInitialProps = async ({ }) => {
   return { messages }
 }
 
-export default App
+// export default App
